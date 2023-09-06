@@ -26,4 +26,10 @@ public class Enrollment {
     private Student student;
 
     Date enrollmentDate;
+
+    public Enrollment(Course course, Student student) {
+        this.course = course;
+        this.student = student;
+        this.enrollmentDate = new Date();
+    }
 }
