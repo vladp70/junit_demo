@@ -1,0 +1,9 @@
+package com.example.demoJunit.dto;
+
+import lombok.Data;
+
+@Data
+public class StudentDTO {
+    private String name;
+    private String email;
+}
